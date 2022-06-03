@@ -1,0 +1,354 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel&family=PT+Serif&display=swap");
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #f4efe7;
+    font-family: "PT Serif", serif;
+}
+
+header {
+    height: 13vw;
+    font-family: "Cinzel", serif;
+    background-color: #d8ba73;
+    color: #362921;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    padding: 1vw 1vw;
+}
+
+h1 {
+    font-size: 4.5vw;
+    margin-left: 3vw;
+}
+
+h2 {
+    font-size: 2.5vw;
+    white-space: nowrap;
+}
+
+img {
+    width: 7.5vw;
+}
+
+nav>ul {
+    font-size: 1.8vw;
+    font-weight: bold;
+    background-color: #d8ba73;
+    width: 35vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.nav-link {
+    color: #362921;
+}
+
+.story {
+    text-align: center;
+    font-size: 2vw;
+}
+
+#story {
+    font-family: "Cinzel", serif;
+    font-size: 5vw;
+    margin-top: 13vw;
+    background-color: #e2ac5b;
+    color: #362921;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+}
+
+#story-content {
+    margin-left: 10vw;
+    margin-right: 10vw;
+    font-size: 2.5vw;
+}
+
+#video-div {
+    margin-top: 8vw;
+    font-size: 3vw;
+}
+
+iframe {
+    border-style: solid;
+    border-color: #f4efe7;
+    border-width: 0.5vw;
+    outline-style: solid;
+    outline-color: #464d53;
+    outline-width: 0.7vw;
+}
+
+.price {
+    text-align: center;
+}
+
+#price {
+    font-family: "Cinzel", serif;
+    font-size: 5vw;
+    background-color: #e2ac5b;
+    color: #362921;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+}
+
+#excuse {
+    font-size: 2.2vw;
+}
+
+#deals {
+    outline-style: solid;
+    outline-color: #72404a;
+    margin-left: 4vw;
+    margin-right: 4vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#classic,
+#new-year,
+#student {
+    background-color: #72404a;
+    color: #f4efe7;
+    cursor: pointer;
+    border-style: solid;
+    border-color: #f4efe7;
+    border-width: 2px;
+    width: 50%;
+    text-align: center;
+}
+
+.deals-btn {
+    margin-bottom: 1vw;
+    outline-style: solid;
+    outline-color: #f4efe7;
+    border-style: solid;
+    border-radius: 60px;
+    border-color: #72404a;
+    font-family: "PT Serif", serif;
+    font-size: 2vw;
+    color: black;
+    background: #f4efe7;
+    padding: 10px 20px 10px 20px;
+}
+
+.deals-btn:hover {
+    color: #000000;
+    background: #c6868e;
+}
+
+#shipping {
+    font-family: "Cinzel", serif;
+    font-size: 5vw;
+    background-color: #e2ac5b;
+    color: #362921;
+    text-align: center;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+}
+
+#shipment-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #464d53;
+    color: #f3eded;
+    border-style: solid;
+    border-color: #f4efe7;
+    border-width: 2px;
+    height: 30vw;
+    outline-style: solid;
+    outline-color: #464d53;
+    margin-left: 20vw;
+    margin-right: 20vw;
+}
+
+#delivery-text {
+    font-size: 3.5vw;
+}
+
+#dropdown {
+    font-family: "PT Serif", serif;
+    font-size: 1.8vw;
+    text-align: center;
+    background-color: #f4efe7;
+    font-size: 2.6vw;
+}
+
+#shipment-btn {
+    margin-top: 2vw;
+    margin-bottom: 1vw;
+    outline-style: solid;
+    outline-color: #f4efe7;
+    border-style: solid;
+    border-radius: 60px;
+    border-color: #464d53;
+    font-family: "PT Serif", serif;
+    font-size: 2vw;
+    color: black;
+    background: #f4efe7;
+    padding: 20px 40px 20px 40px;
+}
+
+#shipment-btn:hover {
+    color: #f4efe7;
+    background: #454f6d;
+}
+
+#newsletter {
+    margin-top: 10vw;
+    background-color: #e2ac5b;
+    color: #362921;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 4vw;
+    margin-right: 4vw;
+    margin-bottom: 2vw;
+    font-size: 2vw;
+}
+
+#email {
+    font-family: "PT Serif", serif;
+    width: 30vw;
+    font-size: 1.8vw;
+}
+
+#submit {
+    outline-style: solid;
+    outline-color: #f4efe7;
+    border-style: solid;
+    border-radius: 60px;
+    border-color: #e2ac5b;
+    font-family: "PT Serif", serif;
+    color: black;
+    background: #f4efe7;
+    padding: 5px 10px 5px 10px;
+    font-size: 1.5vw;
+}
+
+#submit:hover {
+    color: #000000;
+    background: #e79b23;
+}
+
+footer {
+    background-color: #464d53;
+    color: #f3eded;
+    height: 20vw;
+    position: absolute;
+    left: 0;
+    right: 0;
+    font-size: 2vw;
+}
+
+#footer-content {
+    margin-left: 6vw;
+}
+
+#attribution {
+    font-size: 2vw;
+    color: #f4efe7;
+}
+
+.attribution {
+    color: #f4efe7;
+}
+
+@media screen and (max-width: 640px) {
+    h1 {
+        font-size: 5vw;
+    }
+
+    h2 {
+        font-size: 2.5vw;
+        z-index: 0;
+    }
+
+    nav>ul {
+        font-size: 2.1vw;
+        width: 40vw;
+        margin-left: -4vw;
+    }
+
+    #story {
+        margin-top: 10vw;
+        font-size: 5vw;
+    }
+
+    #story-content {
+        font-size: 3.5vw;
+    }
+
+    #video {
+        width: 80%;
+    }
+
+    #price {
+        margin-top: 1vw;
+        font-size: 5vw;
+    }
+
+    #shipping {
+        margin-top: 1vw;
+        font-size: 5vw;
+    }
+
+    #classic>h3 {
+        font-size: 5vw;
+    }
+
+    #classic>p {
+        font-size: 3vw;
+    }
+
+    #new-year>h3 {
+        font-size: 5vw;
+    }
+
+    #new-year>p {
+        font-size: 3vw;
+    }
+
+    #student>h3 {
+        font-size: 5vw;
+    }
+
+    #student>p {
+        font-size: 3vw;
+    }
+
+    .deals-btn {
+        padding: 5px 10px 5px 10px;
+        font-size: 3vw;
+    }
+
+    #dropdown {
+        font-size: 3vw;
+    }
+
+    #shipment-btn {
+        padding: 10px 20px 10px 20px;
+        font-size: 2.5vw;
+    }
+
+    #submit {
+        padding: 2.5px 5px 2.5px 5px;
+        font-size: 2vw;
+    }
+
+    footer {
+        height: 25vw;
+    }
+}
